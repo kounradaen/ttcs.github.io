@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="web-icon.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+            <a href="index.html" class="logo">COMPUTER SHOP</a>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="products.html">PRODUCTS</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li class="active"><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="banner">
+            <img src="banner-contact.jpg" alt="">
+        </div>
+        <div class="content">
+            <h1>CONTACT US</h1>
+            <div class="form-message">
+                <div class="send-message">
+                    <h2>Text Message</h2>
+                    <form action="">
+                        <label for="name">Your Full Name</label>
+                        <input type="text" name="txt">
+                        <label for="name">Your Email</label>
+                        <input type="email" name="txt">
+                        <label for="name">Your Phone Number</label>
+                        <input type="text" name="txt">
+                        <textarea name="txt">Your Message :</textarea>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+                <div class="link-message">
+                    <div class="link">
+                        <i class="fa-brands fa-telegram"></i>
+                        <div class="txt-link">
+                            <a href="#">Username: koun_radaen</a>
+                        </div>
+                    </div>
+                    <div class="link">
+                        <i class="fa-solid fa-square-phone"></i>
+                        <div class="txt-link">
+                            <a href="#">016659933</a>
+                        </div>
+                    </div>
+                    <div class="link">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div class="txt-link">
+                            <a href="#">
+                                <p>Angkdey Village, Seoung Commune, Samrong District, Takeo Province</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="foot-icon">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-tiktok"></i>
+            </div>
+            <div class="foot-menu">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="products.html">PRODUCTS</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <style>
+        .content{
+            float: left;
+            width: 1300px;
+            height: 650px;
+            background-color: whitesmoke;
+        }
+        .content h1{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 100px;
+            text-align: center;
+            color: blue;
+            margin-top: 5px;
+            margin-bottom: 2px;
+            text-shadow: 5px 2px gray;
+            text-decoration: underline;
+        }
+        .content .form-message{
+            width: 1300px;
+            height: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .content .form-message .send-message{
+            width: 500px;
+            height: 450px;
+            margin-left: 150px;
+            border-radius: 15px;
+            box-shadow: 10px 10px 10px 10px gray;
+        }
+        .content .form-message .send-message h2{
+            color: blue;
+            text-align: center;
+            font-size: 25px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .content .form-message .send-message label{
+            font-size: 20px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin-left: 20px;
+        }
+        .content .form-message .send-message input{
+            font-size: 20px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            width: 450px;
+            height: 30px;
+            margin-bottom: 5px;
+            margin-left: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .content .form-message .send-message textarea{
+            width: 450px;
+            height: 100px;
+            margin-left: 20px;
+            border-radius: 15px;
+            font-size: 25px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .content .form-message .send-message button{
+            width: 200px;
+            height: 50px;
+            color: white;
+            background-color: blue;
+            border-radius: 10px;
+            font-size: 25px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 5px;
+            margin-left: 270px;
+            cursor: pointer;
+        }
+        .content .form-message .send-message button:hover{
+            background-color: red;
+        }
+        .content .link-message{
+            float: left;
+            width: 500px;
+            height: 500px;
+            margin-right: 100px;
+            margin-top: 100px;
+        }
+        .content .link-message .link{
+            margin-top: 25px;
+            width: 650px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: left;
+        }
+        .content .link-message .link .fa-telegram,.fa-square-phone,.fa-location-dot{
+            font-size: 50px;
+            color: black;
+            cursor: pointer;
+        }
+        .content .link-message .link .fa-telegram:hover,.fa-square-phone:hover,.fa-location-dot:hover{
+            font-size: 60px;
+            color: blue;
+        }
+        .content .link-message .link .txt-link a{
+            font-size: 35px;
+            color: blue;
+            text-decoration: none;
+            margin-left: 30px;
+        }
+        .content .link-message .link .txt-link a p{
+            margin-left: 30px;
+        }
+    </style>
+</body>
+</html>

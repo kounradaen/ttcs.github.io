@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="web-icon.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+            <a href="index.html" class="logo">COMPUTER SHOP</a>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li class="active"><a href="products.html">PRODUCTS</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="banner">
+            <img src="banner-product.jpg" alt="">
+        </div>
+        <div class="content">
+            <div class="product-card">
+                <div class="pic">
+                    <img src="acer-logo.jpg" alt="">
+                </div>
+                <div class="view">
+                    <a href="product-page/acer.html">View all --></a>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="pic">
+                    <img src="asus-logo.jpg" alt="">
+                </div>
+                <div class="view">
+                    <a href="product-page/asus.html">View all --></a>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="pic">
+                    <img src="dell-logo.jpg" alt="">
+                </div>
+                <div class="view">
+                    <a href="product-page/dell.html">View all --></a>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="pic">
+                    <img src="lenovo-logo.jpg" alt="">
+                </div>
+                <div class="view">
+                    <a href="product-page/lenovo.html">View all --></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="foot-icon">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-tiktok"></i>
+            </div>
+            <div class="foot-menu">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="products.html">PRODUCTS</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <style>
+        .content{
+            float: left;
+            width: 1300px;
+            height: 550px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: whitesmoke;
+        }
+        .content .product-card{
+            float: left;
+            width: 320px;
+            height: 500px;
+            background-color: white;
+            box-shadow: 5px 5px 5px 5px gray;
+            border-radius: 15px;
+        }
+        .content .product-card:hover{
+            background-color: #f4f7f3;
+        }
+        .content .product-card .pic{
+            margin: 10px;
+            float: left;
+            width: 300px;
+            height: 300px;
+            border-radius: 15px;
+            box-shadow: 3px 3px 3px 3px gray;
+        }
+        .content .product-card .pic:hover{
+            width: 285px;
+            height: 285px; 
+            margin: 17px;
+            box-shadow: 5px 5px 10px 10px gray;
+        }
+        .content .product-card .pic img{
+            width: 100%;
+            height: 300px;
+            border-radius: 15px;
+        }
+        .content .product-card .pic img:hover{
+            width: 100%;
+            height: 285px;
+        }
+        .content .product-card .view{
+            float: left;
+            width: 200px;
+            height: 50px;
+            padding: 10px;
+            margin: 50px;
+            background-color: #50cd1a;
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .content .product-card .view:hover{
+            background-color: rgb(11, 248, 11);
+            width: 210px;
+            height: 55px;
+        }
+        .content .product-card .view a{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 30px;
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="web-icon.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+            <a href="index.html" class="logo">COMPUTER SHOP</a>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="products.html">PRODUCTS</a></li>
+                    <li class="active"><a href="services.html">SERVICES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="banner">
+            <img src="services-banner.jpg" alt="">
+        </div>
+        <div class="content">
+            <h1>OUR SERVICES</h1>
+            <div class="sub-content">
+                <div class="card">
+                    <div class="title">
+                        <h2>Computer Selling</h2>
+                    </div>
+                    <div class="pic">
+                        <img src="pc-sell.jpg" alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="title">
+                        <h2>Windows Installation</h2>
+                    </div>
+                    <div class="pic">
+                        <img src="os-install.jpg" alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="title">
+                        <h2>Computer Maintenance</h2>
+                    </div>
+                    <div class="pic">
+                        <img src="pc-main.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="foot-icon">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-tiktok"></i>
+            </div>
+            <div class="foot-menu">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="products.html">PRODUCTS</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <style>
+        .content{
+            float: left;
+            width: 1300px;
+            height: 550px;
+        }
+        .content h1{
+            text-align: center;
+            font-size: 100px;
+            font-weight: bolder;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: red;
+            margin-top: 5px;
+            margin-bottom: 2px;
+            text-decoration: underline;
+            text-shadow: 5px 2px gray;
+        }
+        .content .sub-content{
+            margin-left: 20px;
+            width: 1250px;
+            height: 400px;
+            float: left;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .content .sub-content .card{
+            width: 380px;
+            height: 300px;
+            background-color: white;
+            border-radius: 20px;
+            box-shadow: 10px 10px 10px 10px gray;
+            cursor: pointer;
+        }
+        .content .sub-content .card:hover{
+            box-shadow: 0px 0px 15px 15px aqua;
+            width: 390px;
+            height: 310px;
+        }
+        .content .sub-content .card .title{
+            width: 380px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .content .sub-content .card .title h2{
+            color: blue;
+            font-size: 35px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: bold;
+        }
+        .content .sub-content .card .pic{
+            width: 380;
+            height: 200px;
+        }
+        .content .sub-content .card .pic img{
+            width: 100%;
+        }
+    </style>
+</body>
+</html>
